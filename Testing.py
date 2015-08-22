@@ -11,7 +11,7 @@ ic_headers = ['options_data_id', 'underyling_symbol', 'quote_date', 'root', 'exp
               'underlying_bid_eod', 'underlying_ask_eod', 'vwap', 'open_interest', 'delivery_code']
 
 wing_strike_span = 5
-strike_interval = 5
+strike_interval = 4
 
 def test_strategy_simple(cnx, start_date, end_date):
     cursor_a = cnx.cursor()
