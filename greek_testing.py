@@ -7,5 +7,3 @@ import mibian
 
 c = mibian.BS([2079.65, 2100, 1, 27], callPrice=16.55)
 print(c.impliedVolatility)
-\
-`
